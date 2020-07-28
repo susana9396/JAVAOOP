@@ -1,3 +1,4 @@
+// Alland, Antonio, Cristian, Susana
 import java.util.Random;
 
 public class BankAccount {
@@ -10,7 +11,7 @@ public class BankAccount {
 	private static double sumSaldoTotal = 0.0;
 
 
-	//Número de cta aleatorio.
+	//NÃºmero de cta aleatorio.
 
 	private String abreCta() {
 		Random rand = new Random(); 
