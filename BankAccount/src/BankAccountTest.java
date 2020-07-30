@@ -1,4 +1,4 @@
-
+// Alland, Antonio, Cristian, Susana
 public class BankAccountTest {
 
 	public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class BankAccountTest {
 		BankAccount persona2  = new BankAccount();
 		System.out.println("\n----Persona1 Apertura de Cuenta Persona1----\");
 		// Persona1 Apertura de Cuenta.
-		System.out.println("Número de Cuenta:\n"+ persona1.getNumCuenta());
+		System.out.println("NÃºmero de Cuenta:\n"+ persona1.getNumCuenta());
 		
 		
 		System.out.println("\n----Depositos Persona1----\n");
