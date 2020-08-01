@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainMenu>
+	<lunchMenu>
+	    <item category="entradas">
+	        <name>Ensalada con Pollo</name>
+	        <description>Una ensalada con pollo.</description>
+	        <price>$10.99</price>
+	    </item>
+	    <item category="entradas">
+	        <name>Sánduche de Pollo</name>
+	        <description>Un sánduche de pollo. </description>
+	        <price>$12.99</price>
+	    </item>
+	    <item category="entradas">
+	        <name>Sánduche de Pastrami</name>
+	        <description>Un sánduche hecho con pastrami.</description>
+	        <price>$13.99</price>
+	    </item>
+	    <item category="bebidas">
+	        <name>Coca-Cola</name>
+	        <description>Una gaseosa.</description>
+	        <price>$0.99</price>
+	    </item>
+	    <item category="bebidas">
+	        <name>Jugo de Naranja</name>
+	        <description>Un jugo hecho con naranjas.</description>
+	        <price>$0.99</price>
+	    </item>    
+	</lunchMenu>
+	<breakfastMenu>
+		<item category="liviano">
+	        <name>Desayuno Europeo</name>
+	        <description>Pan europeo, mantequilla, mermelada, fruta y cafe</description>
+	        <price>$11.99</price>
+	    </item>
+	    <item category="liviano">
+	        <name>Desayuno Americano</name>
+	        <description>Huevo, has brow, panqueques con miel, jugo de naranja</description>
+	        <price>$10.99</price>
+	    </item>
+	    <item category="especial">
+	        <name>Desayuno Especial</name>
+	        <description>Omelette, tostadas, frutas y cafe</description>
+	        <price>$12.99</price>
+	    </item>
+	    <item category="especial">
+	        <name>Desayuno Sureño</name>
+	        <description>Pan con chicharron, mantequilla, queso de cabra, cafe y media luna</description>
+	        <price>$9.99</price>
+	    </item>
+	</breakfastMenu>
+	<dinnerMenu>
+	<item category="entradas">
+	        <name>Sopa de Mariscos</name>
+	        <description>Sopa de mariscos frescos</description>
+	        <price>$5.99</price>
+	    </item>
+	    <item category="entradas">
+	        <name>Sopa de Cebollas</name>
+	        <description>Sopa de cebollas frescas</description>
+	        <price>$4.99</price>
+	    </item>
+	    <item category="principal">
+	        <name>Curvina a la criolla</name>
+	        <description>Curvina a la plancha con salsa criolla</description>
+	        <price>$8.99</price>
+	    </item>
+	    <item category="principal">
+	        <name>Pollo a la Plancha</name>
+	        <description>Pollo servido con arroz, menestras y patacones</description>
+	        <price>$9.99</price>
+	    </item>
+	    <item category="bebidas">
+	        <name>Vino blanco</name>
+	        <description>Vino blanco</description>
+	        <price>$3.99</price>
+	    </item>
+	</dinnerMenu>
+</mainMenu>

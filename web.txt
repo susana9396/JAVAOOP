@@ -1,0 +1,31 @@
+Juan Carlos, Christian, Susana
+
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>  //Nodo Raíz/padre. Hace referencia a una aplicación web
+
+    <display-name>SimpleServletProject</display-name> // Nodo hijo. Nombre del Servelt
+    
+    <servlet> // Nodo hijo
+        <servlet-name>simpleServlet</servlet-name> // Nodo secundario.  Nombre de la clase
+        <servlet-class>org.codingdojo.tutorial.SimpleServlet</servlet-class>// Nodo secundario. Hace referencia a la ubicación de la está la clase
+    </servlet>
+    
+    <servlet-mapping>// Nodo hijo
+        <servlet-name>simpleServlet</servlet-name>// Nodo secundario. Nombre de la clase
+        <url-pattern>/simpleServlet</url-pattern>// Nodo secundario. Usando el patrón (nombre de la clase) hará match para mapear su url específica
+    </servlet-mapping>
+    
+    <servlet>// Nodo hijo
+        <servlet-name>xmlServlet</servlet-name>// Nodo secundario, 
+        <servlet-class>or.codingdojo.tutorial.XmlServlet</servlet-class>// Nodo secundario
+    </servlet>
+    
+    <servlet-mapping>// Nodo hijo
+        <servlet-name>xmlServlet</servlet-name>// Nodo secundario
+        <url-pattern>/xmlServletpath</url-pattern>// Nodo secundario
+    </servlet-mapping>
+    
+    <welcome-file-list>// Nodo hijo
+    <welcome-file>index.html</welcome-file>// Nodo secundario. Si no ponemos alguna ruta, nos redireccionará a esta página.
+    </welcome-file-list>
+</web-app>
