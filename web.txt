@@ -3,7 +3,7 @@ Juan Carlos, Christian, Susana
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>  //Nodo Raíz/padre. Hace referencia a una aplicación web
 
-    <display-name>SimpleServletProject</display-name> // Nodo hijo. Nombre del Servelt
+    <display-name>SimpleServletProject</display-name> // Nodo hijo. Nombre del Servlet
     
     <servlet> // Nodo hijo
         <servlet-name>simpleServlet</servlet-name> // Nodo secundario.  Nombre de la clase
